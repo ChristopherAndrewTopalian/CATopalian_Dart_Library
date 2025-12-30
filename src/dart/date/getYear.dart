@@ -2,13 +2,13 @@
 
 int getYear()
 {
-  // DateTime.now() is built into the core library
-  return DateTime.now().year;
+    // DateTime.now() is built into the core library
+    return DateTime.now().year;
 }
 
 void main()
 {
-  print("The year is: ${getYear()}");
+    print("The year is: ${getYear()}");
 }
 
 //----//
